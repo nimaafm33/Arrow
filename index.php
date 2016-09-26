@@ -1,6 +1,6 @@
 <?php
-define('API_KEY', 'Your Token');
-$admin = '68747297';
+define('API_KEY', '288952320:AAG86YGMOefcNCJTpr_oj1lOjTmhbJLug8g');
+$admin = '98193019';
 function api($method,$datas=[]){
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
     $ch = curl_init();
